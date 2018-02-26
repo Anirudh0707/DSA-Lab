@@ -43,7 +43,7 @@ void heapsort(int a[], int n)
 
 int main()
 {
-    int i,count=0;
+    register int i,count=0;
     FILE *fptr;
     fptr=fopen("inp1m.txt","r");
     if(fptr == NULL)
